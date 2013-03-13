@@ -27,7 +27,7 @@
 
   </head>
 
-  <body onload="onLoad()">
+  <body onload="onLoad()" onBeforeUnload="onUnload()">
 
     <div class="navbar navbar-static-top">
       <div class="navbar-inner">
@@ -41,13 +41,13 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="dropdown" id="wil">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wil Grace <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="username">Wil Grace <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Separated link</a></li>
                   <li><a href="#">One more separated link</a></li>
                 </ul>
               </li>     
-              <li><a href="#contact">News</a></li>	
+              <li><a href="exampleWebsites/news.html">News</a></li>	
               <li><a href="#contact">Sport</a></li>
               <li><a href="#contact">Weather</a></li>
               <li><a href="#home">iPlayer</a></li>
@@ -193,7 +193,11 @@
     ================================================== -->
     <!--<script src="js/bootstrap.min.js"></script>-->
     <script src="js/init.js"></script>
-    <script src="js/quizManager.js"></script>
+    <script src="js/journey.js"></script>
+    <script src="js/User.js"></script>
+    <script src="js/Walk.js"></script>
+    <script src="js/Step.js"></script>
+    <script src="js/journeyManager.js"></script>
     <!-- Placed at the end of the document so the pages load faster -->
     <!--<script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
