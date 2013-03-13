@@ -1,0 +1,75 @@
+
+/* Style reset */
+
+h1 {
+	font-weight: normal;
+	line-height: 90px;
+	margin-left: 20px;
+}
+
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px solid #d4d4d4 ;
+	border-bottom: 1px solid #d4d4d4 ;
+}
+
+
+/* Navigation */
+
+
+.navbar-inverse .navbar-inner, .navbar-inner  {
+background-color: white;
+background-image: none;
+}
+
+.navbar-static-top .navbar-inner {
+box-shadow: none;
+}
+
+.navbar-static-top .nav>li {
+border-right: 1px solid #d4d4d4 
+}
+
+.navbar-static-top .nav #wil .caret {
+margin-left: 60px;
+}
+
+input[type="search"] {
+background-color: #e4e4e4;
+border-color: #e4e4e4;
+border-radius: 1px;
+width:180px;
+}
+
+/* Header */
+
+#banner-container {
+  background-color: #C9D0DA;
+  min-height: 90px;
+}
+
+#banner-container .banner {
+  font-weight: normal;
+}
+
+
+/* Sub navigation */
+.btn-toolbar {
+margin: 0px;
+float: right
+}
+
+
+/* Sub navigation */
+ul.thumbnails{
+margin-left: 0px;
+}
+
+
+
+
+
+
+
+

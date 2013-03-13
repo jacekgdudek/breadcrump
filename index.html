@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Journeys Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 0px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">    
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body onload="onLoad()">
+
+    <div class="navbar navbar-static-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#"><img src="img/BBC.png"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="dropdown" id="wil">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wil Grace <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>     
+              <li><a href="#contact">News</a></li>	
+              <li><a href="#contact">Sport</a></li>
+              <li><a href="#contact">Weather</a></li>
+              <li><a href="#home">iPlayer</a></li>
+              <li><a href="#about">TV</a></li>
+              <li><a href="#about">K&amp;L</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form pull-right">
+              <input class="span2" type="search" placeholder="Search">
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div> 
+    
+    <!-- Header
+    ================================================== -->
+    <div id="myCarousel">
+      <div class="carousel-inner">
+		<div id="banner-container">
+          <h1>Knowledge &amp; Learning</h1>  
+        </div>        	
+      </div>
+    </div><!-- /.carousel -->    
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <!--<img src="../assets/img/examples/slide-01.jpg" alt="">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img src="../assets/img/examples/slide-02.jpg" alt="">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img src="../assets/img/examples/slide-03.jpg" alt="">-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+
+
+    <div class="container">
+    
+
+
+	<!-- Sub navigation -->
+      <div class="row">	
+      	<div class="span12">
+			<div class="navbar">
+			  <div class="navbar-inner">
+			    <ul class="nav" id="question-list">
+			      <li class="active"><a href="#">Option 1</a></li>
+			      <li><a href="#">Link</a></li>
+			      <li><a href="#test">Link</a></li>
+			    </ul>
+			    <div class="btn-toolbar">
+		  		    <div class="btn-group">
+		             <a class="btn btn-small" href="#"><i class="icon-align-left"></i></a>
+		             <a class="btn btn-small" href="#"><i class="icon-align-center"></i></a>
+		  			</div>
+				  </div>
+			  </div>
+			</div>	
+      	</div>
+		<div class="span3 offset2">
+
+   		</div>
+   	  </div>  
+
+      <!-- Grid of images -->
+      <div class="row">
+		<ul class="thumbnails">
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/300x200" style="width: 300px; height: 200px;" src="http://ichef.bbci.co.uk/images/ic/336x189/legacy/episode/b01r3pb9.jpg" alt="">
+		      <h3>Thumbnail label</h3>
+		      <p>Thumbnail caption...</p>
+		    </div>
+		  </li>
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/300x200" alt="">
+		      <h3>Thumbnail label</h3>
+		      <p>Thumbnail caption...</p>
+          <!--<canvas id="#test" width="200" height="200"/>-->
+		    </div>
+		  </li>
+		  <li class="span4">
+		    <div class="thumbnail">
+		      <img data-src="holder.js/300x200" alt="">
+		      <h3>Thumbnail label</h3>
+		      <p>Thumbnail caption...</p>
+		    </div>
+		  </li> 
+		</ul>
+      </div>
+
+
+      <hr>
+
+      <footer>
+        <p><a class="brand" href="#"><img src="img/BBC.png"></a></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/init.js"></script>
+    <script src="js/quizManager.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>s
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>-->
+
+  </body>
+</html>
